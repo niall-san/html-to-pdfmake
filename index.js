@@ -183,7 +183,7 @@ function htmlToPdfMake(htmlText, options) {
         }
 
         ret.nodeName = nodeName;
-        if (element.id) ret.id = element.id;
+        //if (element.id) ret.id = element.id;
         parents.push(element);
 
         if (element.childNodes && element.childNodes.length>0) {
